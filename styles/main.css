@@ -1,0 +1,100 @@
+html {
+  min-height: 100%;
+  background: linear-gradient(top, #fff, navy);
+  background: -webkit-linear-gradient(top, teal, navy);
+  background: -ms-linear-gradient(top, teal, navy);
+  background: -moz-linear-gradient(top, teal, navy);
+  background: -o-linear-gradient(top, teal, navy); }
+
+.content {
+  margin: 100px auto;
+  padding: 30px;
+  width: 800px;
+  border: 3px solid navy;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff; }
+
+.hidden {
+  display: none; }
+
+.highlight {
+  color: purple;
+  text-shadow: 0 0 1px pink; }
+
+.page-text {
+  text-align: left; }
+
+a, li {
+  text-decoration: none; }
+
+.nav li {
+  display: inline-block;
+  width: 15%;
+  height: 20px;
+  line-height: 20px; }
+
+.nav li:last-child {
+  border-right: none; }
+
+.nav a {
+  display: inline-block;
+  width: 100%;
+  line-height: 20px;
+  color: navy;
+  text-align: center;
+  border-right: 1px solid teal; }
+
+.nav a:hover,
+a[id]:hover {
+  color: teal;
+  text-shadow: 0 0 0.1px teal; }
+
+h1 {
+  color: navy; }
+
+h2 {
+  position: relative;
+  color: black; }
+
+a[id] {
+  position: absolute;
+  left: 2px;
+  font-size: 14px;
+  color: navy;
+  outline: 0; }
+
+p, ol, ul {
+  text-align: left; }
+
+.important {
+  color: blue;
+  font-weight: 700; }
+
+.spotter {
+  position: absolute;
+  width: 10px;
+  height: 30px;
+  background: red;
+  z-index: 1000; }
+
+/*******************************************
+  Hover effect for touch devices
+*******************************************/
+.hover {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+/*******************************************
+  Styling
+*******************************************/
+
+/*# sourceMappingURL=main.css.map */

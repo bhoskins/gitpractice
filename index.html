@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Git Practice</title>
+
+    <link rel="shortcut icon" type=-"image/x-icon" href="images/favicon-bh.png">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+
+<body>
+  <a id="top"></a>
+
+  <div class="content">
+
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="#section1">Starting</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+        <li><a href="#section4">Section 4</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- simple tool for finding spots -->
+  <div class="spotter hidden"></div>
+
+    <h1 class="main-heading">
+      Document 1
+    </h1>
+
+    <!-- Initial content display -->
+
+    <h2>Section 1
+      <a href="#top" id="section1">^Top</a>
+    </h2>
+
+    <h3>And it begins</h3>
+    <p class="page-text">
+       git init  => to create the file <br />
+       hub create projectName  => to create a project on github <br />
+       git add .  => to add the current directory to commit <br />
+       git commit -m "Message for the commit" <br />
+       git push origin master <br />
+    </p>
+
+    <h3>Important commands to check on things</h3>
+    <p class="important">
+      git status  - to see whats tracked and staged
+    </p>
+
+    <h3>To clone or not to clone</h3>
+    <p class="important">
+      git clone https://github.com/libgit2/libgit2
+      <ol>
+        <li>creates a directory named "libgit2"</li>
+        <li>initializes a .git directory inside of it</li>
+        <li>Pulls down the data for the repository and checks out the latest copy</li>
+      </ol>
+    </p>
+
+    <p class="important">
+      git clone https://github.com/libgit2/libgit2 mylibgit
+      <ol>
+        <li>Everything above except the target directory is "mylibgit"</li>
+      </ol>
+    </p>
+
+    <p>
+      All the following work
+      <ol class="important">
+        <li>git clone https://github.com/libgit</li>
+        <li>git clone git://</li>
+        <li>git clone user@server:path/to/repo.git</li>
+      </ol>
+    </p>
+
+    <div id="map">
+
+    </div>
+
+    <h2>Section 2
+      <a href="#top" id="section2">^Top</a>
+    </h2>
+    <p class="page-text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta facilis eius aut accusamus error pariatur, laboriosam inventore praesentium unde quidem possimus perferendis vero doloremque, recusandae doloribus neque qui. Nemo, accusantium. Consequatur, cumque deserunt neque dolorem mollitia nihil numquam cupiditate quas veritatis totam non culpa debitis distinctio optio maxime, facilis voluptatibus!
+    </p>
+
+  <h2>Section 3
+    <a href="#top" id="section3">^Top</a>
+  </h2>
+    <p class="page-text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere iste saepe quaerat obcaecati doloribus repellendus autem eveniet, expedita ipsa. Sequi accusamus minus similique ducimus reiciendis excepturi voluptatibus, totam voluptatum accusantium dolorum dolor veniam eum temporibus. Veritatis eaque, deserunt libero facilis quas nostrum quod error suscipit ducimus odio! Ratione impedit, rem.
+    </p>
+
+    <h2>Section 4
+      <a href="#top" id="section4">^Top</a>
+    </h2>
+    <p class="page-text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab maiores in, eligendi magnam distinctio perspiciatis dolorem, culpa ipsam expedita officiis similique quis, dolore explicabo sapiente repellat est quidem dicta temporibus. Sint maxime iure sed nisi, maiores blanditiis et corrupti ducimus facilis pariatur placeat delectus facere, ipsum odio error, quos omnis?
+    </p>
+
+  </div><!-- .content -->
+
+
+
+
+
+
+
+
+
+<!-- Scripts Below -->
+  <script type="text/template" id="this-template">
+  </script>
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js">
+  </script>
+
+  <script type="text/javascript" src="scripts/main.js">
+  </script>
+
+
+</body>
+</html>
